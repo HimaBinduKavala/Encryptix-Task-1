@@ -1,0 +1,98 @@
+
+/* Apply some basic styles to the whole page / body { font-family: Arial, sans-serif; margin: 0; padding: 0; } / Style the header / header { color: #fff; text-align: center; padding: 20px; height: 60vh; } header h3 { margin: 5px 0; } / Style the main content / main { padding: 20px; } section { margin-bottom: 20px; } / Style the footer / footer { background-color: #333; color: #fff; text-align: center; padding: 10px; position: fixed; bottom: 0; width: 100%; } .roww{ margin: 50px 10 10 10; height:40vh; } / Style the button */
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.roww{
+    height:50vh;
+}
+.section{
+    width: 100%;
+   margin-top: -30px;
+}
+.col6, .col2, .col8{
+    padding-top: 15px;
+}
+button:hover {
+    background-color: #0056b3;
+}
+.bin{
+    text-align:center ;
+}
+.col1 {
+    background-color: #333;
+    text-align:center;
+    color: white;
+    padding-top: 15px;
+}
+
+.han{
+background-color: skyblue;
+}
+
+.col2 {
+    background-color: skyblue
+    
+}
+
+.col3 {
+    background-color: #333;
+    color: #ffffff;
+}
+
+.col4 {
+    background-color: skyblue
+}
+
+.row2 {
+    margin: -80px 0 0 0;
+    height: 55vh;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+   margin-left: -20px;
+    height: 20vh;
+}
+.bind{
+float: right;
+}
+.navgi {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.navgi:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.col6 {
+    background-color: skyblue;
+    color: #ffffff;
+    margin: 40px 0 0 0;
+    height: 50vh;
+    text-align: center;
+}
+
+.web {
+    border: 0.5px solid black;
+    
+}
+
+.col8 {
+    background-color: #333;
+    color: #ffffff;
+    margin: 40px 0 0 0;
+    height: 50vh;
+    text-align: center;
+}
